@@ -1,0 +1,109 @@
+.heading{
+    margin: 0px;
+    height: auto;
+    width: auto;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.flex-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #229617;
+    margin: 0px auto;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    
+}
+.home-page{
+    text-align: center;
+    text-transform: capitalize;
+}
+.home-img{
+    height: 400px;
+    width: 550px;
+}
+h2{
+    text-align: center;
+    color: #229617;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.img{
+    text-align: center;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+#forms{
+    border-style: solid;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.form-home{
+    text-align: center;
+    border-style: solid;
+    height: 400px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+.clickable{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    text-transform: capitalize;
+    border-style: solid;
+    width: 150px;
+    background-color: #229617;
+    justify-content: space-between;
+
+}
+.clickable-2{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    text-transform: capitalize;
+    /* width: 100vh; */
+    border-style: solid;
+    background-color: #229617;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+.input{
+    justify-content: space-around;
+}
+.call{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 40px;
+    background-color: #229617;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.p-tag{
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: white;
+    height: 30px;
+    position: sticky;
+}
+.bio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+}
