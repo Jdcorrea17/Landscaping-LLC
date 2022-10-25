@@ -1,0 +1,234 @@
+.heading{
+    margin: 0px;
+    margin-top: 5px;
+    height: auto;
+    width: auto;
+    vertical-align: center;
+    color: #1b3e88;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.flex-heading{
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+.home-page{
+    text-align: center;
+    text-transform: capitalize;
+}
+.home-img{
+    height: 350px;
+    width: 500px;
+}
+h2{
+    text-align: center;
+    color: #1b3e88;
+}
+.img{
+    text-align: center;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+body{
+    text-align: center;
+}
+#forms{
+    border-style: solid;
+    height: 250px;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    display: inline-block;
+}
+.clickable{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    text-transform: capitalize;
+    width: 150px;
+    background-color: #1b3e88;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.input{
+    justify-content: space-around;
+}
+.call{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 25px;
+    background-color: #1b3e88;
+    justify-content: center;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+.p-tag{
+    font-size: larger;
+    font-weight: bolder;
+    align-content: flex-end;
+}
+.bio{
+    font-size: large;
+    text-align: center;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    word-wrap: normal;
+}
+.form-flex{
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    /* padding-left: 15px; */
+    padding: 5px;
+    color: #1b3e88;
+    font-weight: bolder;
+}
+.p-tags{
+padding-left: 50px;
+}
+.mess-input{
+    height: auto;
+    width: 250px;
+    
+}
+.form-flex1{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    /* padding-left: 15px; */
+    color: #1b3e88;
+    font-weight: bolder;
+    justify-content: space-around;
+    padding: 5px;
+}
+.input-form{
+    width: 250px;
+    
+}
+button{
+    font-size: larger;
+    background-color: #1b3e88;
+    color: white;
+    font-weight: bolder;
+}
+.images{
+    height: 500px;
+    width: 450px;
+}
+.photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.services{
+    /* border-style: solid; */
+    width: auto;
+    align-self: center;
+}
+.hours{
+    /* border-style: solid; */
+    width: 240px;
+}
+.tables{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+table{
+    text-align: center;
+}
+.h-title{
+    border-style: solid;
+    color: green;
+    width: 200px;
+    
+}
+td{
+    /* background-color: #1b3e88; */
+    color: #1b3e88;
+    text-align: center;
+}
+th{
+    /* background-color: #1b3e88; */
+    color: #1b3e88;
+    border-style: solid;
+    margin: 0px auto;
+    font-weight: bolder;
+    font-size: large;
+}
+.price{
+    text-align: center;
+    border-style: solid; 
+    width: 140px;
+}
+.infomation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    width: 415px;
+}
+.disclaimer{
+   display: flex;
+   justify-content: center;
+}
+.bullet{
+    width: 310px;
+}
+.b2{
+    display: flex;
+    justify-content: center;
+}
+.land{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.land-services{
+    width: 180px;
+    display: block;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+    text-transform: uppercase;
+    color: #1b3e88;
+    margin-bottom: 5px;
+}
+.icon-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    color: #1b3e88;
+}
+.hours-open{
+    font-weight: bold;
+    font-size: large;
+}

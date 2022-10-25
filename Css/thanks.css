@@ -1,0 +1,26 @@
+.heading{
+    margin: 0px;
+    margin-top: 5px;
+    height: auto;
+    width: auto;
+    vertical-align: center;
+    color: #1b3e88;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.flex-heading{
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+.message{
+    margin-top: 60px;
+}
