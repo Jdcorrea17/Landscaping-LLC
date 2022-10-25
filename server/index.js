@@ -12,13 +12,13 @@ app.use(cors())
 
 
 app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname, './homepage.html'))
+    res.sendFile(path.join(__dirname, './public/homepage.html'))
 })
 app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname, './thanks.html'))
+    res.sendFile(path.join(__dirname, './public/thanks.html'))
 })
 
-app.use(express.static(path.join(__dirname, './server')))
+app.use(express.static(path.join(__dirname, './public')))
 
 
 app.listen(PORT, () => {console.log(`Listening on port 5432`)})
