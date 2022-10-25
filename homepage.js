@@ -18,7 +18,7 @@ app.get('/', function(req, res){
     res.sendFile(path.join(__dirname, './thanks.html'))
 })
 
-app.use(express.static(path.join(__dirname, '../public')))
+app.use(express.static(path.join(__dirname, './server')))
 
 
 app.listen(PORT, () => {console.log(`Listening on port 5432`)})
