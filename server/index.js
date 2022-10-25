@@ -12,13 +12,10 @@ app.use(cors())
 
 
 app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname, './public/homepage.html'))
-})
-app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname, './public/thanks.html'))
+    res.sendFile(path.join(__dirname, '../public/homepage.html'))
 })
 
-app.use(express.static(path.join(__dirname, './public')))
+app.use(express.static(path.join(__dirname, '../public')))
 
 
 app.listen(PORT, () => {console.log(`Listening on port 4005`)})
