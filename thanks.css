@@ -1,0 +1,95 @@
+.heading{
+    margin: 0px;
+    margin-top: 5px;
+    height: auto;
+    width: auto;
+    vertical-align: center;
+    color: #1b3e88;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.flex-heading{
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+.message{
+    margin-top: 60px;
+}
+h2{
+    text-align: center;
+    color: #1b3e88;
+}
+.call{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 25px;
+    background-color: #1b3e88;
+    justify-content: center;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+.clickable{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    text-transform: capitalize;
+    width: 150px;
+    background-color: #1b3e88;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hours{
+    width: 240px;
+}
+.infomation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    color: #1b3e88;
+}
+.hours-open{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+.land{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.land-services{
+    width: 180px;
+    display: block;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+    text-transform: uppercase;
+    color: #1b3e88;
+    margin-bottom: 5px;
+}
+.services{
+    width: auto;
+    align-self: center;
+}

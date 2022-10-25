@@ -231,4 +231,5 @@ li{
 .hours-open{
     font-weight: bold;
     font-size: large;
+    text-align: center;
 }
