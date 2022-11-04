@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summer Snow LandScaping</title>
     <link rel="stylesheet" href="./homepage.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
     <div class="flex-heading">
@@ -16,33 +20,33 @@
             <img src="./images/logo.png" alt="Image Not Found" class="logo">
         </div>
     </div>
+    <br>
 
-    
+        <div class="container">
+            <div class="swiper">
+            <div class="swiper-wrapper">
+      
+                <div class="swiper-slide"><img src="./images/truck.jpg" alt="Image Not Found" class="donut"></div>
+                <div class="swiper-slide"><img src="./images/Grass.png" alt="Image Not Found" class="donut"></div>
+                <div class="swiper-slide"><img src="./images/Hill.jpg" alt="Image Not Found" class="donut"></div>
+                <div class="swiper-slide"><img src="./images/Houses.png" alt="Image Not Found" class="donut"></div>
+                <div class="swiper-slide"><img src="./images/Trim.jpg" alt="Image Not Found" class="donut"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            </div>
+        <br>
 
-
-
-    <div class="home-content">  
         <div class="h2">
-        <h2 class="home-page">About Us</h2>
+            <h2 class="home-page">About Us</h2>
         </div> 
-        <div class="img">
-            <img src="./images/truck.jpg" alt="Image not found" class="home-img">
-        </div>
         <div>
             <p class="bio">Summer Snow LLC is a family owned landscaping business located in Shakopee MN. Our full services lawn care include mowing, edging, triming, fall clean up, and spring clean up, and snow removal, for more information look below. We are looking to expand our business to areas in Chaska, Carver, Chanhassen, Eden prairie, Savage, Burnsville, Jordan, Minneapolis, and Belle Plain. If you are interested in a free estimate call or fill out the form below</p>
         </div>
-
-        <div>
+        
             <h2>Services</h2>
-        </div>
-        <div class="photos">
-            <div>
-                <img src="./images/Houses.png" alt="Image Not Found" class="images">
-            </div>
-            <div>
-                <img src="./images/Grass.png" alt="Image Not Found" class="images">
-            </div>
-        </div>
             <div class="services">
                 <ul class="land">
                     <li class="land-services">Mowing</li>
@@ -66,21 +70,22 @@
         <div class="call">
             
             <div>
-                <a class="clickable" href="tel:19526527313"> FOR FREE ESTIMATES CALL: (952)-652-7313 ENGLISH</a>
+                <a class="clickable" href="tel:19526527313"> FREE ESTIMATES CALL: (952)-652-7313 ENGLISH </a>
             </div>
             <div>
-                <a class="clickable" href="tel:16123682566"> /SPANISH (612)-368-2566 </a>
+                <a class="clickable" href="tel:16123682566"> / SPANISH (612)-368-2566 </a>
             </div>
         </div>
+
     <br>
     <br>
     <div>
     </div>
     <br>
+    <br>
     
     <div class="form-home">
-            
-        <div id="forms">
+        <!-- <div id="forms">
             <div>
                 <h2>Form</h2>
             </div>
@@ -102,13 +107,28 @@
                     <input type="message" name="message" placeholder="Message" class="mess-input" required>
                 </div>
                 <input type="hidden" name="_next" value="https://summer-snow-llc-shakopeemn.herokuapp.com/thanks.html">
-                <!-- <input type="hidden" name="_cc" value="jdcorrea17@gmail.com"> -->
-                <!-- <input type="hidden" name="_cc" value="another@email.com"> -->
                 <input type="text" name="_honey" style="display:none">
                 <input type="hidden" name="_captcha" value="false">
 
                 <button type="submit">Send</button>
            </form>
+        </div>
+    </div> -->
+    <div class="contact-bgc">
+        <div class="contact">
+            <h2>Contact Form</h2>
+            <form action="https://formsubmit.co/e2d07a8fb15acaaa093c4522e8bc80cd" method="POST">
+                <label  for="fname" class="label">Name</label>
+                <input type="text" name="name" placeholder="Your Name.." id="fname" required>
+                <label for="lname" class="label">Email</label>
+                <input type="text" name="email" placeholder="Your Email.." id="lname" required>
+                <label for="subject">Message</label>
+                <textarea type="text" id="subject" name="subject" placeholder="Write Message.." class="message-text"  required></textarea>
+                <input type="hidden" name="_next" value="https://summer-snow-llc-shakopeemn.herokuapp.com/thanks.html">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit" class="sub-btn">Submit</button>
+            </form>
         </div>
     </div>
 <br>
@@ -133,11 +153,33 @@
                 <p class="hours-open">Monday-Saturday: 8am - 5pm</p>
             </div>
         </div>
-        
     </div>
+
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
     <script type="javascript" src="../server/index.js"></script>
+
+
+        <script>
+        const swiper = new Swiper('.swiper', {
+          autoplay: {
+              delay: 3000,
+              disableOnInteraction: false,
+        },
+        loop: true,
+        
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        });
+        </script>
+
 </body>
 </html>
