@@ -18,4 +18,4 @@ app.get('/', function(req, res){
 app.use(express.static(path.join(__dirname, '../public')))
 
 
-app.listen(PORT, () => {console.log(`Listening on port 4005`)})
+app.listen(PORT, () => {console.log(`Listening on port 5432`)})
